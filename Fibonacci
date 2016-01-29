@@ -1,0 +1,12 @@
+def fib(n):
+    print('Числа Фибоначчи')
+    a, b = 1, 1
+    print(b)
+    print(a)
+    while a < n:
+            a = a + b
+            if a < n:
+                print(a)
+            b = b + a
+            if b < n:
+                print(b)
