@@ -1,0 +1,7 @@
+def zabor(a):
+    for d in range(len(a)):
+        if d%2:
+            print(a[d].lower())
+        else:
+            print(a[d].upper())
+        
